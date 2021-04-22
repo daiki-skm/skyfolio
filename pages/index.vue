@@ -5,6 +5,9 @@
       <h1 class="title">
         skyfolio
       </h1>
+      <h2 class="title">
+        hello!
+      </h2>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
