@@ -3,27 +3,15 @@
     <div>
       <Logo />
       <h1 class="title">
-        skyfolio
+        Welcome to skyfolio!
       </h1>
-      <h2 class="title">
-        hello!
-      </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
-          target="_blank"
+          href="/sub/"
           rel="noopener noreferrer"
           class="button--green"
         >
           Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
         </a>
       </div>
     </div>
@@ -36,7 +24,7 @@ import Vue from 'vue'
 export default Vue.extend({})
 </script>
 
-<style>
+<style scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;
