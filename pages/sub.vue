@@ -45,18 +45,23 @@
             >
               <th
                 :id="id"
-                class=""
+                :class="{
+                  'back-grey': id%2 === 0,
+                }"
               >
-                {{ item.title + ' :'}}
+                {{ item.title }}
               </th>
-              <td class="">
+              <td
+                :class="{
+                  'back-grey': id%2 === 0,
+                }"
+              >
                 {{ item.desc }}
               </td>
             </tr>
           </tbody>
         </table>
       </div>
-      <!-- <Carousel /> -->
     </el-card>
   </div>
 </template>
@@ -69,7 +74,7 @@ export type DataType = {
 }
 
 export default Vue.extend({
-  // layout: 'common',
+  layout: 'common',
   data (): DataType {
     return {
       myself: [
@@ -134,16 +139,7 @@ export default Vue.extend({
 <style scoped>
 
 .container {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: Verdana,sans-serif;
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -162,9 +158,11 @@ export default Vue.extend({
 }
 
 .title {
+  color: #666;
+  font-size: 60px;
   font-weight: bold;
-  font-size: 50px;
-  color: #35495e;
+  text-shadow: 4px 4px 0px #eee, 5px 5px 0px #707070;
+  margin-bottom: 10px;
   letter-spacing: 1px;
   flex-grow: 1;
 }
@@ -178,29 +176,34 @@ export default Vue.extend({
 .myself {
   font-size: 30px;
   letter-spacing: 1px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 table {
   text-align: left;
   width: 100%;
+  border-collapse: collapse;
 }
 
-/* caption {
-  text-align: left;
-  border-bottom: var(--v-line-base) 2px solid;
-} */
-
 tr {
+  height: 40%;
 }
 
 th {
+  color: #666;
   vertical-align: top;
   position: static;
   width: 40%;
+  padding: 11px 0 9px 15px;
 }
 
 td {
+  color: #666;
+  padding: 11px 0 11px 15px;
+}
+
+.back-grey {
+  background: rgb(240, 240, 240);
 }
 
 </style>

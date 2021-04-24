@@ -1,47 +1,47 @@
 <template>
   <div class="container">
-    <div>
-      <img
-        src="/gopher.png"
-        alt="gopher"
-      />
-      <h1 class="title">
-        Welcome to skyfolio!
-      </h1>
-      <div class="links">
+    <transition name="el-zoom-in-center">
+      <div v-show="show">
+        <h1 class="title">
+          Welcome to skyfolio!
+        </h1>
         <a
           href="/sub/"
           rel="noopener noreferrer"
-          class="button--green"
+          class="button--brown"
         >
           About Me
         </a>
       </div>
-    </div>
+    </transition>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 
-export default Vue.extend({})
+export type DataType = {
+  show: boolean,
+}
+
+export default Vue.extend({
+  layout: 'common',
+  data (): DataType {
+    return {
+      show: false,
+    }
+  },
+  mounted() {
+    setTimeout(() => {
+      this.show = true
+    }, 1500)
+  },
+})
 </script>
 
 <style scoped>
-/* @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
 .container {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -51,16 +51,29 @@ export default Vue.extend({})
 }
 
 .title {
-  /* font-family: 'Nothing You Could Do', cursive; */
-  font-family: 'Bad Script', cursive;
-  display: block;
-  font-weight: 300;
+  font-family: Verdana,sans-serif;
+  color: #666;
   font-size: 100px;
-  color: #87a4df;
-  letter-spacing: 1px;
+  font-weight: bold;
+  text-shadow: 4px 4px 0px #eee, 5px 5px 0px #707070;
+  margin-bottom: 20px;
 }
 
-.links {
-  padding-top: 15px;
+
+.button--brown {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #666;
+  color: #666;
+  text-decoration: none;
+  padding: 10px 30px;
+  width: 200px;
 }
+
+.button--brown:hover {
+  color: #fff;
+  background-color: #666;
+  width: 200px;
+}
+
 </style>
