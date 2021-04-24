@@ -132,7 +132,18 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+
 .container {
+  font-family:
+    'Quicksand',
+    'Source Sans Pro',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -151,16 +162,6 @@ export default Vue.extend({
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
   font-weight: bold;
   font-size: 50px;
   color: #35495e;
@@ -175,17 +176,6 @@ export default Vue.extend({
 }
 
 .myself {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  /* font-weight: bold; */
   font-size: 30px;
   letter-spacing: 1px;
   margin-bottom: 10px;
@@ -202,13 +192,15 @@ table {
 } */
 
 tr {
-  /* padding-bottom: 20px; */
 }
 
 th {
   vertical-align: top;
   position: static;
   width: 40%;
+}
+
+td {
 }
 
 </style>
