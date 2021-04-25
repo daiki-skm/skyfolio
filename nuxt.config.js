@@ -23,6 +23,7 @@ export default {
   css: [
     'element-ui/lib/theme-chalk/index.css',
     '@fortawesome/fontawesome-svg-core/styles.css',
+    '~/assets/main.css',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -59,4 +60,6 @@ export default {
       })
     }
   },
+
+  pageTransition: 'page',
 }

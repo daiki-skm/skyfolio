@@ -131,16 +131,19 @@ export default Vue.extend({
 }
 
 a {
+  color: #333;
   text-decoration: none;
 }
 
 a:hover {
+  color: #333;
   text-decoration: underline;
 }
 
 .link {
   font-size: 18px;
   color: #333;
+  padding-right: 7px;
 }
 
 </style>
