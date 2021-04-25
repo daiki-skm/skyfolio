@@ -10,14 +10,14 @@
       </el-image>
       <div class="sentence">
         I participated in <a href="https://gsacademy.jp/hack-trek-2021/" target="_blank">'Hack Trek 2021'</a><br />
+        The image on the left shows
         <a
           href="https://daiki-photo.web.app/"
           target="_blank"
         >
-          'こちら'
+          'an application'
         </a>
-        はこの活動を通して、私たちのチームで作成したウェブアプリです。<br />
-        力不足を痛感しました。いい経験になりました。<br />
+        developed by our team through this activity.
       </div>
     </div>
   </div>

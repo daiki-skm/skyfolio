@@ -85,6 +85,7 @@ export default Vue.extend({
   color: #333;
   letter-spacing: 1.5px;
   line-height: 1.75;
+  background: #fffffd;
 }
 
 .header {
