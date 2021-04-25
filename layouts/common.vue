@@ -53,9 +53,9 @@
         <nuxt-link to="/about/">
           <span class="link">About</span>
         </nuxt-link>
-        <!-- <nuxt-link to="/activities/">
-          <span style="color: black;">Activities</span>
-        </nuxt-link> -->
+        <nuxt-link to="/bookshelf/">
+          <span class="link">Bookshelf</span>
+        </nuxt-link>
       </div>
     </div>
     <Nuxt />

@@ -1,6 +1,6 @@
 <template>
   <div>
-    index
+    404
   </div>
 </template>
 
@@ -11,7 +11,6 @@ export type DataType = {
 }
 
 export default Vue.extend({
-  layout: 'common',
   data (): DataType {
     return {
     }
