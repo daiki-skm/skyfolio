@@ -13,7 +13,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/gopher.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/record-player-brown.png' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap' },
     ]

@@ -1,18 +1,27 @@
 <template>
   <div class="container">
-    <div class="dalian">
+    <div class="link-card">
       <nuxt-link to="/activities/dalian/">
-        <img src="/dalian-top.png" alt="dalian"/>
+        <!-- <img src="/dalian-top.png" alt="dalian"/> -->
+        <el-card class="box-card">
+          <span class="card-title">China Business Training Program</span>
+        </el-card>
       </nuxt-link>
     </div>
-    <div class="win">
+    <div class="link-card">
       <nuxt-link to="/activities/win/">
-        <img src="/win-top.png" alt="win"/>
+        <!-- <img src="/win-top.png" alt="win"/> -->
+        <el-card class="box-card">
+          <span class="card-title">Nursing care digital hackathon</span>
+        </el-card>
       </nuxt-link>
     </div>
-    <div class="hack-trek">
+    <div class="link-card">
       <nuxt-link to="/activities/hackTrek/">
-        <img src="/hack-trek-top.png" alt="hack-trek"/>
+        <!-- <img src="/hack-trek-top.png" alt="hack-trek"/> -->
+        <el-card class="box-card">
+          <span class="card-title">Hack Trek 2021</span>
+        </el-card>
       </nuxt-link>
     </div>
     <i class="el-icon-arrow-up" @click="scrollUp" />
@@ -58,7 +67,37 @@ export default Vue.extend({
   text-align: center;
 }
 
-.dalian {
+.link-card {
+  display: inline-block;
+  width: 960px;
+  height: 420px;
+  margin-bottom: 50px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.box-card {
+  width: 960px;
+  height: 420px;
+  cursor: pointer;
+  background: #fffffc;
+  transition-duration: 0.3s;
+}
+
+.box-card:hover {
+  opacity: 0.5;
+  transition-duration: 0.3s;
+}
+
+.card-title {
+  font-size: 50px;
+  line-height: 370px;
+}
+
+/* .dalian {
   display: inline-block;
   width: 960px;
   height: 420px;
@@ -116,7 +155,7 @@ export default Vue.extend({
 .hack-trek:hover img{
   opacity: 0.6;
   transition-duration: 0.3s;
-}
+} */
 
 .el-icon-arrow-up {
   cursor: pointer;
