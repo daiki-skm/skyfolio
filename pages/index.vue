@@ -32,20 +32,15 @@
 import Vue from 'vue'
 
 export type DataType = {
-  show: boolean,
 }
 
 export default Vue.extend({
   layout: 'common',
   data (): DataType {
     return {
-      show: false,
     }
   },
   mounted() {
-    setTimeout(() => {
-      this.show = true
-    }, 1500)
   },
   methods: {
     scrollUp(): void {
