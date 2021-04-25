@@ -15,6 +15,7 @@
         <img src="/hack-trek-top.png" alt="hack-trek"/>
       </nuxt-link>
     </div>
+    <i class="el-icon-arrow-up" @click="scrollUp" />
   </div>
 </template>
 
@@ -37,6 +38,14 @@ export default Vue.extend({
       this.show = true
     }, 1500)
   },
+  methods: {
+    scrollUp(): void {
+      window.scroll({
+        top: 0,
+        behavior: "smooth",
+      })
+    },
+  }
 })
 </script>
 
@@ -107,6 +116,13 @@ export default Vue.extend({
 .hack-trek:hover img{
   opacity: 0.6;
   transition-duration: 0.3s;
+}
+
+.el-icon-arrow-up {
+  cursor: pointer;
+  display: block;
+  font-size: 3rem;
+  margin-bottom: 50px;
 }
 
 </style>
