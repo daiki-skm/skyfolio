@@ -1,19 +1,20 @@
 <template>
   <div class="container">
-    <transition name="el-zoom-in-center">
-      <div v-show="show">
-        <h1 class="title">
-          Welcome to skyfolio!
-        </h1>
-        <a
-          href="/sub/"
-          rel="noopener noreferrer"
-          class="button--brown"
-        >
-          About Me
-        </a>
-      </div>
-    </transition>
+    <div class="dalian">
+      <nuxt-link to="/activities/dalian/">
+        <img src="/dalian-top.png" alt="dalian"/>
+      </nuxt-link>
+    </div>
+    <div class="win">
+      <nuxt-link to="/activities/win/">
+        <img src="/win-top.png" alt="win"/>
+      </nuxt-link>
+    </div>
+    <div class="hack-trek">
+      <nuxt-link to="/activities/hackTrek/">
+        <img src="/hack-trek-top.png" alt="hack-trek"/>
+      </nuxt-link>
+    </div>
   </div>
 </template>
 
@@ -43,37 +44,69 @@ export default Vue.extend({
 
 .container {
   margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-.title {
-  font-family: Verdana,sans-serif;
-  color: #666;
-  font-size: 100px;
-  font-weight: bold;
-  text-shadow: 4px 4px 0px #eee, 5px 5px 0px #707070;
-  margin-bottom: 20px;
-}
-
-
-.button--brown {
+.dalian {
   display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #666;
-  color: #666;
-  text-decoration: none;
-  padding: 10px 30px;
-  width: 200px;
+  width: 960px;
+  height: 420px;
+  background: black;
+  margin-bottom: 50px;
 }
 
-.button--brown:hover {
-  color: #fff;
-  background-color: #666;
-  width: 200px;
+.dalian img{
+  width: 960px;
+  height: 420px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.dalian:hover img{
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+
+.win {
+  display: inline-block;
+  width: 960px;
+  height: 420px;
+  background: black;
+  margin-bottom: 50px;
+}
+
+.win img{
+  width: 100%;
+  margin-top: 50px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.win:hover img{
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+
+.hack-trek {
+  display: inline-block;
+  width: 960px;
+  height: 420px;
+  background: black;
+  margin-bottom: 50px;
+}
+
+.hack-trek img{
+  width: 960px;
+  height: 420px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.hack-trek:hover img{
+  opacity: 0.6;
+  transition-duration: 0.3s;
 }
 
 </style>

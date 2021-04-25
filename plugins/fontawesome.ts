@@ -7,6 +7,7 @@ import { faChrome } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
 
 // nuxt.config.tsでCSSファイルを追加
 config.autoAddCss = false;
@@ -18,6 +19,7 @@ const bransIcons = [faChrome];
 const instaIcons = [faInstagram];
 const twitIcons = [faTwitter];
 const gitIcons = [faGithub];
+const fbIcons = [faFacebookF];
 
 
 // 利用するアイコンをlibraryに追加
@@ -27,6 +29,7 @@ bransIcons.forEach(icon => library.add(icon));
 instaIcons.forEach(icon => library.add(icon));
 twitIcons.forEach(icon => library.add(icon));
 gitIcons.forEach(icon => library.add(icon));
+fbIcons.forEach(icon => library.add(icon));
 
 // グローバルコンポーネントに登録
 Vue.component('fa', FontAwesomeIcon);
