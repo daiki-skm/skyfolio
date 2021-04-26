@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="sub-title">Bookshelf</h1>
+    <h1 class="sub-title">My Bookshelf</h1>
     <div>
       <el-row>
         <el-col :span="6" v-for="(book, id) in books" :key="id">

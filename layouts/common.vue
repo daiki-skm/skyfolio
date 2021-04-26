@@ -51,7 +51,10 @@
       </div>
       <div class="link-list">
         <nuxt-link to="/about/">
-          <span class="link">About</span>
+          <span class="link" style="padding-right: 40px;">About</span>
+        </nuxt-link>
+        <nuxt-link to="/blog/">
+          <span class="link" style="padding-right: 40px;">Blog</span>
         </nuxt-link>
         <nuxt-link to="/bookshelf/">
           <span class="link">Bookshelf</span>
@@ -139,9 +142,8 @@ a:hover {
 }
 
 .link {
-  font-size: 18px;
+  font-size: 15px;
   color: #333;
-  padding-right: 7px;
 }
 
 </style>
