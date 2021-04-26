@@ -1,11 +1,18 @@
 <template>
   <div class="container">
     <h1 class="sub-title">Blog</h1>
-    <div class="link-card">
-      <el-card class="box-card">
-        <span class="card-title">Blog</span>
-      </el-card>
-    </div>
+    <!-- <div class="link-card"> -->
+      <!-- <el-card class="box-card"> -->
+        <div class="card-day">4/27/2021</div>
+        <div class="card-title">私色</div>
+        <div class="card-sentence">
+          はじめまして。佐久間です。感じたこと、思ったこと、日常など、つらつらとゆるく書いていけたらと思います。<br />
+          最近、コードを書くことが楽しくなってきました。ユーモアあふれるような、面白いものを作成していけたらと思います。<br />
+          こうして自分の気持ちや考えを書き出すことってあまりなかったため、なんだか今不思議な気持ちです。心の中が整理されていくような、そんな感覚です。<br />
+          読んでくださってありがとうございました。
+        </div>
+      <!-- </el-card> -->
+    <!-- </div> -->
     <div class="arrow-up">
       <i class="el-icon-arrow-up" @click="scrollUp" />
     </div>
@@ -72,8 +79,8 @@ a {
 }
 
 .card-title {
-  font-size: 50px;
-  line-height: 370px;
+  /* font-size: 50px;
+  line-height: 370px; */
 }
 
 .arrow-up {
