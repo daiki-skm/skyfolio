@@ -69,7 +69,7 @@ export default Vue.extend({
         },
         {
           title: 'INTEREST/HOBBY',
-          desc: 'Reading books, Listening to music, Snowboarding',
+          desc: 'Reading books, Listening to music, etc...',
         },
       ],
     }

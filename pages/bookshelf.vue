@@ -15,7 +15,8 @@
               'bg-color': (id%2 === 0 && Math.floor(id/4)%2 === 0) || (id%2 === 1 && Math.floor(id/4)%2 === 1),
               'bg-color-light': (id%2 === 1 && Math.floor(id/4)%2 === 0) || (id%2 === 0 && Math.floor(id/4)%2 === 1),
             }"
-          ></div>
+          >
+          </div>
         </el-col>
       </el-row>
     </div>
@@ -140,20 +141,8 @@ export default Vue.extend({
           url: 'https://www.amazon.co.jp/%E5%85%83%E5%BD%BC%E3%81%AE%E9%81%BA%E8%A8%80%E7%8A%B6-%E6%96%B0%E5%B7%9D%E5%B8%86%E7%AB%8B-ebook/dp/B08QDFG9DN',
         },
         {
-          title: '図書館戦争',
+          title: '図書館戦争シリーズ',
           url: 'https://www.amazon.co.jp/%E5%9B%B3%E6%9B%B8%E9%A4%A8%E6%88%A6%E4%BA%89-%E5%9B%B3%E6%9B%B8%E9%A4%A8%E6%88%A6%E4%BA%89%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-1-%E8%A7%92%E5%B7%9D%E6%96%87%E5%BA%AB-%E6%9C%89%E5%B7%9D/dp/4043898053',
-        },
-        {
-          title: '図書館内乱',
-          url: 'https://www.amazon.co.jp/%E5%9B%B3%E6%9B%B8%E9%A4%A8%E5%86%85%E4%B9%B1-%E5%9B%B3%E6%9B%B8%E9%A4%A8%E6%88%A6%E4%BA%89%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-2-%E8%A7%92%E5%B7%9D%E6%96%87%E5%BA%AB-%E6%9C%89%E5%B7%9D/dp/4043898061',
-        },
-        {
-          title: '図書館危機',
-          url: 'https://www.amazon.co.jp/%E5%9B%B3%E6%9B%B8%E9%A4%A8%E5%8D%B1%E6%A9%9F-%E5%9B%B3%E6%9B%B8%E9%A4%A8%E6%88%A6%E4%BA%89%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-3-%E8%A7%92%E5%B7%9D%E6%96%87%E5%BA%AB-%E6%9C%89%E5%B7%9D/dp/404389807X',
-        },
-        {
-          title: '図書館革命',
-          url: 'https://www.amazon.co.jp/%E5%9B%B3%E6%9B%B8%E9%A4%A8%E9%9D%A9%E5%91%BD-%E5%9B%B3%E6%9B%B8%E9%A4%A8%E6%88%A6%E4%BA%89%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-4-%E8%A7%92%E5%B7%9D%E6%96%87%E5%BA%AB-%E6%9C%89%E5%B7%9D/dp/4043898088',
         },
         {
           title: 'トラペジウム',
@@ -293,13 +282,10 @@ a:hover {
 }
 
 .bg-color {
-  /* background: #d3dce6; */
-  /* background: #CD853F; */
-  background: #B8860B;
+  background: #996600;
 }
 
 .bg-color-light {
-  /* background: #e5e9f2; */
   background: #D2B48C;
 }
 
@@ -307,6 +293,8 @@ a:hover {
   border-radius: 4px;
   min-height: 36px;
   margin-bottom: 50px;
+  display: inline-block;
+  width: 220px;
 }
 
 .el-icon-arrow-up {
