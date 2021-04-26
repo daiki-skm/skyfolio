@@ -49,7 +49,7 @@ export default Vue.extend({
         behavior: "smooth",
       })
     },
-  }
+  },
 })
 </script>
 

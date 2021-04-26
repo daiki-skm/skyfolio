@@ -73,8 +73,6 @@ export default Vue.extend({
     return {
     }
   },
-  methods: {
-  },
 })
 </script>
 
