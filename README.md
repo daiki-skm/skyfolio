@@ -1,5 +1,4 @@
-# skyfolio (my website)
-https://skyfolio-b3179.web.app/
+# skyfolio
 
 ## Build Setup
 
