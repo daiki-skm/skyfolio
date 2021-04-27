@@ -5,10 +5,10 @@
     <p class="blog-day">4/27/2021</p>
     <p class="blog-sentence">
       はじめまして。佐久間です。感じたこと、思ったこと、日常など、つらつらとゆるく書いていけたらと思います。<br />
-      最近、コードを書くことが楽しくなってきました。ユーモアあふれるような、面白いものを作成していけたらと思います。<br />
+      最近、コードを書くことが楽しくなってきました。ユーモアあふれるようなものを自分の気持ちのままに作成していけたらと思います。<br />
       こうして自分の気持ちや考えを書き出すことってあまりなかったため、なんだか今不思議な気持ちです。心の中が整理されていくような、そんな感覚です。<br />
-      ブログの終わり方って難しいですね。どういう感じで終わりに結びつければいいかわからないです。<br />
-      拙い文章ですが読んでくださってありがとうございました。それでは。
+      ブログって難しいですね。文の繋がりや終わり方など、結びつけるのが難しいです。<br />
+      拙い文章でしたが読んでくださってありがとうございました。それでは。
     </p>
     <div class="arrow-up">
       <i class="el-icon-arrow-up" @click="scrollUp" />
@@ -53,25 +53,6 @@ export default Vue.extend({
   margin: 0 0 70px 0;
   font-size: 45px;
   text-align: left;
-}
-
-.link-card {
-  display: inline-block;
-  width: 960px;
-  height: 420px;
-  margin-bottom: 50px;
-}
-
-a {
-  color: #333;
-  text-decoration: none;
-}
-
-.box-card {
-  width: 960px;
-  height: 420px;
-  background: #fffffc;
-  transition-duration: 0.3s;
 }
 
 .blog-title {
