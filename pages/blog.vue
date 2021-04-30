@@ -1,6 +1,17 @@
 <template>
   <div class="container">
     <h1 class="sub-title">Blog</h1>
+    <h3 class="blog-title">コペルニクス的転回</h3>
+    <p class="blog-day">4/30/2021</p>
+    <p class="blog-sentence">
+      物事を俯瞰的に捉えることが大切だと耳にしますが、具体的になぜそれが大切か自分の中で明確化していませんでした。<br />
+      人間は、物理的に自分の視点からしか物事を見れないため、無意識に自分が中心だと思ってしまいます。<br />
+      それと似たように、一昔前までは、地球を中心として他の惑星が公転しているという天動説を信じていました。<br />
+      しかし、コペルニクスが地動説を唱え、それが証明され、考え方が一変しました。<br />
+      地球を、宇宙を俯瞰的に捉えたからこそ、新しい発見ができたのだと、そして、人類が前に進んだのだと私は思います。<br />
+      一つの視点、考えに縛られるのではなく、本当にそれは正しいのかと少し考えることが重要なのかなと思った今日この頃です。<br />
+      それでは。<br />
+    </p>
     <h3 class="blog-title">私色</h3>
     <p class="blog-day">4/27/2021</p>
     <p class="blog-sentence">
@@ -72,7 +83,7 @@ export default Vue.extend({
 }
 
 .blog-sentence {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .arrow-up {
