@@ -220,6 +220,14 @@ export default Vue.extend({
           title: '21 Lessons',
           url: 'https://www.amazon.co.jp/21-Lessons-21%E4%B8%96%E7%B4%80%E3%81%AE%E4%BA%BA%E9%A1%9E%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE21%E3%81%AE%E6%80%9D%E8%80%83-%E3%83%A6%E3%83%B4%E3%82%A1%E3%83%AB%E3%83%BB%E3%83%8E%E3%82%A2%E3%83%BB%E3%83%8F%E3%83%A9%E3%83%AA/dp/4309227880',
         },
+        {
+          title: 'ライフピボット',
+          url: 'https://www.amazon.co.jp/gp/product/429501088X/ref=ox_sc_act_title_2?smid=AN1VRQENFRJN5&psc=1',
+        },
+        {
+          title: '君たちはどう生きるか',
+          url: 'https://www.amazon.co.jp/gp/product/4838729472/ref=ox_sc_saved_title_1?smid=A3NVK0K9K7UGXX&psc=1',
+        },
       ],
     }
   },

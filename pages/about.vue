@@ -101,13 +101,13 @@ table {
 
 th {
   vertical-align: top;
-  font-size: 20px;
+  font-size: 18px;
   width: 40%;
 }
 
 td {
   width: 65%;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 </style>
