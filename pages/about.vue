@@ -61,11 +61,7 @@ export default Vue.extend({
         },
         {
           title: 'TECHNOLOGIES',
-          desc: 'vue.js, nuxt,js',
-        },
-        {
-          title: 'WHILE STUDYING',
-          desc: 'golang',
+          desc: 'vue.js, nuxt,js, golang',
         },
         {
           title: 'INTEREST/HOBBY',
