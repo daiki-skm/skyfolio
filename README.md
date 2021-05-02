@@ -2,7 +2,7 @@
 
 ## This is my homepage
 
-## /pages
+### /pages
 - /index: my activity
 - /about: about me
 - /bookshelf: I read books.
