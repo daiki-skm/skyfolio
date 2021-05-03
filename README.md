@@ -1,4 +1,4 @@
-# skyfolio (This is my homepage)
+# skyfolio (This is my portfolio)
 
 ## /pages
 - /: my activities
