@@ -3,5 +3,5 @@
 ## /pages
 - /: my activities
 - /about: about me
-- /bookshelf: I read books.
+- /bookshelf: I have read books.
 - /blog: my thought, feelings
