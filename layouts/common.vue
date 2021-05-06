@@ -5,49 +5,25 @@
         <span class="main-title">skyfolio</span>
       </nuxt-link>
       <div class="icon-list">
-        <a
-          href="https://twitter.com/dk_m28"
-          target="_blank"
+        <SocialMediaLinkIcon
+          :link="'https://twitter.com/dk_m28'"
+          :icon="'twitter'"
           style="padding-right: 5px;"
-        >
-          <fa
-            :icon="['fab', 'twitter']"
-            size="2x"
-            class="icon"
-          />
-        </a>
-        <a
-          href="https://www.instagram.com/daiki_skm_/"
-          target="_blank"
+        />
+        <SocialMediaLinkIcon
+          :link="'https://www.instagram.com/daiki_skm_/'"
+          :icon="'instagram'"
           style="padding-right: 5px;"
-        >
-          <fa
-            :icon="['fab', 'instagram']"
-            size="2x"
-            class="icon"
-          />
-        </a>
-        <a
-          href="https://github.com/daiki328"
-          target="_blank"
+        />
+        <SocialMediaLinkIcon
+          :link="'https://github.com/daiki328'"
+          :icon="'github'"
           style="padding-right: 5px;"
-        >
-          <fa
-            :icon="['fab', 'github']"
-            size="2x"
-            class="icon"
-          />
-        </a>
-        <a
-          href="https://www.facebook.com/profile.php?id=100025096625886"
-          target="_blank"
-        >
-          <fa
-            :icon="['fab', 'facebook-f']"
-            size="2x"
-            class="icon"
-          />
-        </a>
+        />
+        <SocialMediaLinkIcon
+          :link="'https://www.facebook.com/profile.php?id=100025096625886'"
+          :icon="'facebook-f'"
+        />
       </div>
       <div class="link-list">
         <nuxt-link to="/about/">
@@ -119,10 +95,6 @@ export default Vue.extend({
   right: 10px;
   text-align: center;
   margin: 0 auto;
-}
-
-.icon {
-  color: #333;
 }
 
 .link-list {

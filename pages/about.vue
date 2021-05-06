@@ -1,6 +1,8 @@
 <template>
-  <div class="container">
-    <h1 class="sub-title">About</h1>
+  <DefaultContainer>
+    <DefaultSubTitle
+      :title="'About'"
+    />
     <div>
       <el-image
         style="width: 200px; height: 200px; padding-top: 10px;"
@@ -24,7 +26,7 @@
         </tbody>
       </table>
     </div>
-  </div>
+  </DefaultContainer>
 </template>
 
 <script lang="ts">
@@ -76,18 +78,6 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-
-.container {
-  max-width: 960px;
-  padding: 0;
-  margin: 0 auto;
-}
-
-.sub-title {
-  margin: 0 0 70px 0;
-  font-size: 45px;
-  text-align: left;
-}
 
 table {
   float: right;

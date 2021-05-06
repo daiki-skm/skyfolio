@@ -1,6 +1,6 @@
 <template>
-  <div>
-    index
+  <div class="container">
+    <slot />
   </div>
 </template>
 
@@ -11,7 +11,7 @@ export type DataType = {
 }
 
 export default Vue.extend({
-  layout: 'common',
+  name: 'DefaultContainer',
   data (): DataType {
     return {
     }
@@ -22,4 +22,11 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+
+.container {
+  max-width: 960px;
+  padding: 0;
+  margin: 0 auto;
+}
+
 </style>

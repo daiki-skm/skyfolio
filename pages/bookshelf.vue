@@ -1,6 +1,10 @@
 <template>
-  <div class="container">
-    <h1 class="sub-title">Bookshelf</h1>
+  <DefaultContainer
+    style="text-align: center;"
+  >
+    <DefaultSubTitle
+      :title="'Bookshelf'"
+    />
     <div>
       <el-row>
         <el-col :span="6" v-for="(book, id) in books" :key="id">
@@ -20,8 +24,8 @@
         </el-col>
       </el-row>
     </div>
-    <i class="el-icon-arrow-up" @click="scrollUp" />
-  </div>
+    <IconArrowUp />
+  </DefaultContainer>
 </template>
 
 <script lang="ts">
@@ -232,30 +236,11 @@ export default Vue.extend({
     }
   },
   methods: {
-    scrollUp(): void {
-      window.scroll({
-        top: 0,
-        behavior: "smooth",
-      })
-    },
   },
 })
 </script>
 
 <style scoped>
-
-.container {
-  max-width: 960px;
-  padding: 0;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.sub-title {
-  margin: 0 0 70px 0;
-  font-size: 45px;
-  text-align: left;
-}
 
 a {
   color: #333;
@@ -303,13 +288,6 @@ a:hover {
   margin-bottom: 50px;
   display: inline-block;
   width: 220px;
-}
-
-.el-icon-arrow-up {
-  cursor: pointer;
-  display: block;
-  font-size: 3rem;
-  margin-bottom: 50px;
 }
 
 </style>
