@@ -3,7 +3,7 @@
     <h1 class="sub-title">RPC life cycle</h1>
     <div>
       <el-image
-        style="width: 260px; height: 340px; margin-bottom: 50px;"
+        style="width: 300px; height: 340px; margin-bottom: 50px;"
         src="/hugging-docker.png"
         fit="cover"
       >

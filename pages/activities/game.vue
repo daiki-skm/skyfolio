@@ -10,7 +10,7 @@
         />
         with golang and pixel.
         <br />
-        <p style="font-weight: bold; margin-top: 20px;">
+        <p style="font-weight: bold; margin-top: 15px;">
           How to play
         </p>
         - Press the spacekey to avoid obstacles.<br />
