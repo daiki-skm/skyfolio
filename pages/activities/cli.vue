@@ -4,7 +4,7 @@
     <div>
       <el-image
         style="width: 450px; height: 400px"
-        src="/cli.png"
+        src="/top/cli.png"
         fit="cover"
       >
       </el-image>

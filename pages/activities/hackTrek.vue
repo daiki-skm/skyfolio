@@ -5,7 +5,7 @@
     <div>
       <el-image
         style="width: 366px; height: 366px"
-        src="/hack-trek-mini.png"
+        src="/hack-trek/hack-trek.png"
         fit="cover"
       >
       </el-image>

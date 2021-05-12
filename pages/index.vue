@@ -1,34 +1,34 @@
 <template>
   <div class="container">
     <ActivitiesLinkCard
-      :link="'/activities/grpc/'"
-      :class-name="'grpc'"
-      :src="'hugging-docker.png'"
+      :link="'/activities/bot/'"
+      :class-name="'bot'"
+      :src="'/top/music-top.png'"
     />
     <ActivitiesLinkCard
       :link="'/activities/game/'"
       :class-name="'game'"
-      :src="'game-top.png'"
+      :src="'/top/game-top.png'"
     />
     <ActivitiesLinkCard
       :link="'/activities/cli/'"
       :class-name="'cli'"
-      :src="'cli.png'"
+      :src="'/top/cli.png'"
     />
     <ActivitiesLinkCard
       :link="'/activities/dalian/'"
       :class-name="'dalian'"
-      :src="'dalian-top.png'"
+      :src="'/top/dalian-top.png'"
     />
     <ActivitiesLinkCard
       :link="'/activities/win/'"
       :class-name="'win'"
-      :src="'win-top.png'"
+      :src="'/top/win-top.png'"
     />
     <ActivitiesLinkCard
       :link="'/activities/hackTrek/'"
       :class-name="'hack-trek'"
-      :src="'hack-trek-top.png'"
+      :src="'/top/hack-trek-top.png'"
     />
     <IconArrowUp />
   </div>

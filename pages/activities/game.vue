@@ -19,7 +19,7 @@
       </div>
       <el-image
         style="width: 800px; height: 460px; margin-bottom: 50px;"
-        src="/game.png"
+        src="/game/game.png"
         fit="cover"
       >
       </el-image>

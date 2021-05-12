@@ -62,7 +62,7 @@ a {
   padding: 0 !important;
 }
 
-.grpc {
+.bot {
   display: inline-block;
   width: 960px;
   height: 420px;
@@ -70,14 +70,14 @@ a {
   margin-bottom: 50px;
 }
 
-.grpc img{
-  width: 320px;
-  height: 420px;
+.bot img{
+  width: 570px;
+  height: 430px;
   cursor: pointer;
   transition-duration: 0.3s;
 }
 
-.grpc:hover img{
+.bot:hover img{
   opacity: 0.6;
   transition-duration: 0.3s;
 }

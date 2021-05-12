@@ -232,6 +232,26 @@ export default Vue.extend({
           title: '君たちはどう生きるか',
           url: 'https://www.amazon.co.jp/gp/product/4838729472/ref=ox_sc_saved_title_1?smid=A3NVK0K9K7UGXX&psc=1',
         },
+        {
+          title: 'バビロン大富豪の教え',
+          url: 'https://www.amazon.co.jp/gp/product/4866511249/ref=ox_sc_act_title_5?smid=AN1VRQENFRJN5&psc=1',
+        },
+        {
+          title: 'イノベーションのジレンマ',
+          url: 'https://www.amazon.co.jp/gp/product/4798100234/ref=ox_sc_act_image_4?smid=AN1VRQENFRJN5&psc=1',
+        },
+        {
+          title: '世界一シンプルで科学的に証明された究極の食事',
+          url: 'https://www.amazon.co.jp/gp/product/4492046240/ref=ox_sc_act_title_3?smid=AN1VRQENFRJN5&psc=1',
+        },
+        {
+          title: 'LIFE SHIFT',
+          url: 'https://www.amazon.co.jp/gp/product/4492533877/ref=ox_sc_act_title_2?smid=AN1VRQENFRJN5&psc=1',
+        },
+        {
+          title: '「思いつかない」「まとまらない」「伝わらない」がなくなる本',
+          url: 'https://www.amazon.co.jp/gp/product/4804718516/ref=ox_sc_act_title_1?smid=AN1VRQENFRJN5&psc=1',
+        },
       ],
     }
   },
