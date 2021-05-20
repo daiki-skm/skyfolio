@@ -26,6 +26,9 @@
         />
       </div>
       <div class="link-list">
+        <nuxt-link to="/terminal/">
+          <span class="link" style="padding-right: 40px;">Terminal</span>
+        </nuxt-link>
         <nuxt-link to="/about/">
           <span class="link" style="padding-right: 40px;">About</span>
         </nuxt-link>
