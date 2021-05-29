@@ -62,6 +62,26 @@ a {
   padding: 0 !important;
 }
 
+.notion {
+  display: inline-block;
+  width: 960px;
+  height: 420px;
+  background: #fffffc;
+  margin-bottom: 50px;
+}
+
+.notion img{
+  width: 760px;
+  height: 400px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.notion:hover img{
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+
 .bot {
   display: inline-block;
   width: 960px;

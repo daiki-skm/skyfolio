@@ -1,6 +1,11 @@
 <template>
   <div class="container">
     <ActivitiesLinkCard
+      :link="'/activities/notion/'"
+      :class-name="'notion'"
+      :src="'/top/notion-top.png'"
+    />
+    <ActivitiesLinkCard
       :link="'/activities/bot/'"
       :class-name="'bot'"
       :src="'/top/music-top.png'"
@@ -45,10 +50,6 @@ export default Vue.extend({
   data (): DataType {
     return {
     }
-  },
-  mounted() {
-  },
-  methods: {
   },
 })
 </script>
