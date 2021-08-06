@@ -1,12 +1,12 @@
 <template>
-  <DefaultContainer>
+  <DefaultContainer style="padding-bottom: 100px;">
     <DefaultSubTitle
       :title="'About'"
     />
     <div>
       <el-image
         style="width: 200px; height: 200px; padding-top: 10px;"
-        src="/me.JPG"
+        src="/me.jpeg"
         fit="cover"
       >
       </el-image>

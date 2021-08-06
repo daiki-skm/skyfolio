@@ -169,112 +169,28 @@ export default Vue.extend({
           url: 'https://www.amazon.co.jp/%E7%A5%9E%E3%81%AE%E5%AD%90%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1%E3%81%AF%E3%81%BF%E3%81%AA%E8%B8%8A%E3%82%8B-%E6%96%B0%E6%BD%AE%E6%96%87%E5%BA%AB-%E6%9D%91%E4%B8%8A-%E6%98%A5%E6%A8%B9/dp/4101001502',
         },
         {
-          title: 'DEATH「死」とは何か',
-          url: 'https://www.amazon.co.jp/%E3%80%8C%E6%AD%BB%E3%80%8D%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B-%E3%82%A4%E3%82%A7%E3%83%BC%E3%83%AB%E5%A4%A7%E5%AD%A6%E3%81%A723%E5%B9%B4%E9%80%A3%E7%B6%9A%E3%81%AE%E4%BA%BA%E6%B0%97%E8%AC%9B%E7%BE%A9-%E5%AE%8C%E5%85%A8%E7%BF%BB%E8%A8%B3%E7%89%88-%E3%82%B7%E3%82%A7%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%B1%E3%83%BC%E3%82%AC%E3%83%B3/dp/4866511281',
-        },
-        {
-          title: 'シン・ニホン',
-          url: 'https://www.amazon.co.jp/%E3%82%B7%E3%83%B3%E3%83%BB%E3%83%8B%E3%83%9B%E3%83%B3-AI%C3%97%E3%83%87%E3%83%BC%E3%82%BF%E6%99%82%E4%BB%A3%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E6%97%A5%E6%9C%AC%E3%81%AE%E5%86%8D%E7%94%9F%E3%81%A8%E4%BA%BA%E6%9D%90%E8%82%B2%E6%88%90-NewsPicks%E3%83%91%E3%83%96%E3%83%AA%E3%83%83%E3%82%B7%E3%83%B3%E3%82%B0-%E5%AE%89%E5%AE%85%E5%92%8C%E4%BA%BA/dp/4910063048',
-        },
-        {
-          title: 'チーズはどこへ消えた？',
-          url: 'https://www.amazon.co.jp/%E3%83%81%E3%83%BC%E3%82%BA%E3%81%AF%E3%81%A9%E3%81%93%E3%81%B8%E6%B6%88%E3%81%88%E3%81%9F-%E3%82%B9%E3%83%9A%E3%83%B3%E3%82%B5%E3%83%BC-%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%BD%E3%83%B3/dp/459403019X',
-        },
-        {
-          title: 'LIFESPAN',
-          url: 'https://www.amazon.co.jp/LIFESPAN-%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B9%E3%83%91%E3%83%B3-%E8%80%81%E3%81%84%E3%81%AA%E3%81%8D%E4%B8%96%E7%95%8C-%E3%83%87%E3%83%93%E3%83%83%E3%83%89%E3%83%BB-%E3%83%BB%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AC%E3%82%A2/dp/4492046747',
-        },
-        {
-          title: 'サピエンス全史',
-          url: 'https://www.amazon.co.jp/%E3%82%B5%E3%83%94%E3%82%A8%E3%83%B3%E3%82%B9%E5%85%A8%E5%8F%B2-%E4%B8%8A-%E6%96%87%E6%98%8E%E3%81%AE%E6%A7%8B%E9%80%A0%E3%81%A8%E4%BA%BA%E9%A1%9E%E3%81%AE%E5%B9%B8%E7%A6%8F-%E3%83%A6%E3%83%B4%E3%82%A1%E3%83%AB%E3%83%BB%E3%83%8E%E3%82%A2%E3%83%BB%E3%83%8F%E3%83%A9%E3%83%AA/dp/430922671X',
-        },
-        {
-          title: 'ホモ・デウス',
-          url: 'https://www.amazon.co.jp/%E3%83%9B%E3%83%A2%E3%83%BB%E3%83%87%E3%82%A6%E3%82%B9-%E4%B8%8A-%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC%E3%81%A8%E3%82%B5%E3%83%94%E3%82%A8%E3%83%B3%E3%82%B9%E3%81%AE%E6%9C%AA%E6%9D%A5-%E3%83%A6%E3%83%B4%E3%82%A1%E3%83%AB%E3%83%BB%E3%83%8E%E3%82%A2%E3%83%BB%E3%83%8F%E3%83%A9%E3%83%AA/dp/4309227368',
-        },
-        {
-          title: '嫌われる勇気',
-          url: 'https://www.amazon.co.jp/%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E5%8B%87%E6%B0%97%E2%80%95%E2%80%95%E2%80%95%E8%87%AA%E5%B7%B1%E5%95%93%E7%99%BA%E3%81%AE%E6%BA%90%E6%B5%81%E3%80%8C%E3%82%A2%E3%83%89%E3%83%A9%E3%83%BC%E3%80%8D%E3%81%AE%E6%95%99%E3%81%88-%E5%B2%B8%E8%A6%8B-%E4%B8%80%E9%83%8E/dp/4478025819',
-        },
-        {
-          title: '人を動かす',
-          url: 'https://www.amazon.co.jp/%E4%BA%BA%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99-%E6%96%87%E5%BA%AB%E7%89%88-D%E3%83%BB%E3%82%AB%E3%83%BC%E3%83%8D%E3%82%AE%E3%83%BC/dp/442210098X',
-        },
-        {
-          title: 'フェルマーの最終定理',
-          url: 'https://www.amazon.co.jp/%E3%83%95%E3%82%A7%E3%83%AB%E3%83%9E%E3%83%BC%E3%81%AE%E6%9C%80%E7%B5%82%E5%AE%9A%E7%90%86-%E6%96%B0%E6%BD%AE%E6%96%87%E5%BA%AB-%E3%82%B5%E3%82%A4%E3%83%A2%E3%83%B3-%E3%82%B7%E3%83%B3/dp/4102159711',
-        },
-        {
-          title: '疲れない体',
-          url: 'https://www.amazon.co.jp/%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%95%E3%82%A9%E3%83%BC%E3%83%89%E5%BC%8F-%E7%96%B2%E3%82%8C%E3%81%AA%E3%81%84%E4%BD%93-%E5%B1%B1%E7%94%B0%E7%9F%A5%E7%94%9F/dp/4763136879',
-        },
-        {
-          title: '独白：消せない記録',
-          url: 'https://www.amazon.co.jp/%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%87%E3%83%B3-%E7%8B%AC%E7%99%BD-%E6%B6%88%E3%81%9B%E3%81%AA%E3%81%84%E8%A8%98%E9%8C%B2-%E3%82%A8%E3%83%89%E3%83%AF%E3%83%BC%E3%83%89%E3%83%BB%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%87%E3%83%B3/dp/4309227864',
-        },
-        {
-          title: '最高の睡眠',
-          url: 'https://www.amazon.co.jp/%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%95%E3%82%A9%E3%83%BC%E3%83%89%E5%BC%8F-%E6%9C%80%E9%AB%98%E3%81%AE%E7%9D%A1%E7%9C%A0-%E8%A5%BF%E9%87%8E%E7%B2%BE%E6%B2%BB/dp/4763136011',
-        },
-        {
-          title: '2030年：すべてが「加速」する世界に備えよ',
-          url: 'https://www.amazon.co.jp/2030%E5%B9%B4-%E3%81%99%E3%81%B9%E3%81%A6%E3%81%8C%E3%80%8C%E5%8A%A0%E9%80%9F%E3%80%8D%E3%81%99%E3%82%8B%E4%B8%96%E7%95%8C%E3%81%AB%E5%82%99%E3%81%88%E3%82%88-%E3%83%94%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%87%E3%82%A3%E3%82%A2%E3%83%9E%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B9/dp/4910063137',
-        },
-        {
-          title: '21 Lessons',
-          url: 'https://www.amazon.co.jp/21-Lessons-21%E4%B8%96%E7%B4%80%E3%81%AE%E4%BA%BA%E9%A1%9E%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE21%E3%81%AE%E6%80%9D%E8%80%83-%E3%83%A6%E3%83%B4%E3%82%A1%E3%83%AB%E3%83%BB%E3%83%8E%E3%82%A2%E3%83%BB%E3%83%8F%E3%83%A9%E3%83%AA/dp/4309227880',
-        },
-        {
-          title: 'ライフピボット',
-          url: 'https://www.amazon.co.jp/%E3%83%A9%E3%82%A4%E3%83%95%E3%83%94%E3%83%9C%E3%83%83%E3%83%88-%E7%B8%A6%E6%A8%AA%E7%84%A1%E5%B0%BD%E3%81%AB%E6%9C%AA%E6%9D%A5%E3%82%92%E6%8F%8F%E3%81%8F-%E4%BA%BA%E7%94%9F100%E5%B9%B4%E6%99%82%E4%BB%A3%E3%81%AE%E8%BB%A2%E8%BA%AB%E8%A1%93-%E3%81%A7%E3%81%8D%E3%82%8B%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9-%E9%BB%92%E7%94%B0%E6%82%A0%E4%BB%8B/dp/429501088X/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E3%83%A9%E3%82%A4%E3%83%95%E3%83%94%E3%83%9C%E3%83%83%E3%83%88&qid=1622294918&s=books&sr=1-1',
-        },
-        {
-          title: '君たちはどう生きるか',
-          url: 'https://www.amazon.co.jp/%E6%BC%AB%E7%94%BB-%E5%90%9B%E3%81%9F%E3%81%A1%E3%81%AF%E3%81%A9%E3%81%86%E7%94%9F%E3%81%8D%E3%82%8B%E3%81%8B-%E5%90%89%E9%87%8E%E6%BA%90%E4%B8%89%E9%83%8E/dp/4838729472/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=LUEDADDGE97N&dchild=1&keywords=%E5%90%9B%E3%81%9F%E3%81%A1%E3%81%AF%E3%81%A9%E3%81%86%E7%94%9F%E3%81%8D%E3%82%8B%E3%81%8B&qid=1622294952&s=books&sprefix=%E5%90%9B%E3%81%9F%E3%81%A1%E3%81%AF%2Cstripbooks%2C119&sr=1-1',
-        },
-        {
-          title: 'バビロン大富豪の教え',
-          url: 'https://www.amazon.co.jp/%E6%BC%AB%E7%94%BB-%E3%83%90%E3%83%93%E3%83%AD%E3%83%B3%E5%A4%A7%E5%AF%8C%E8%B1%AA%E3%81%AE%E6%95%99%E3%81%88-%E3%80%8C%E3%81%8A%E9%87%91%E3%80%8D%E3%81%A8%E3%80%8C%E5%B9%B8%E3%81%9B%E3%80%8D%E3%82%92%E7%94%9F%E3%81%BF%E5%87%BA%E3%81%99%E4%BA%94%E3%81%A4%E3%81%AE%E9%BB%84%E9%87%91%E6%B3%95%E5%89%87-%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%B8%E3%83%BBS%E3%83%BB%E3%82%AF%E3%83%AC%E3%82%A4%E3%82%BD%E3%83%B3/dp/4866511249/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E3%83%90%E3%83%93%E3%83%AD%E3%83%B3%E5%A4%A7%E5%AF%8C%E8%B1%AA%E3%81%AE%E6%95%99%E3%81%88&qid=1622294970&s=books&sr=1-1',
-        },
-        {
-          title: 'イノベーションのジレンマ',
-          url: 'https://www.amazon.co.jp/%E3%82%A4%E3%83%8E%E3%83%99%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E3%82%B8%E3%83%AC%E3%83%B3%E3%83%9E-%E2%80%95%E6%8A%80%E8%A1%93%E9%9D%A9%E6%96%B0%E3%81%8C%E5%B7%A8%E5%A4%A7%E4%BC%81%E6%A5%AD%E3%82%92%E6%BB%85%E3%81%BC%E3%81%99%E3%81%A8%E3%81%8D-Harvard-business-school/dp/4798100234/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E3%82%A4%E3%83%8E%E3%83%99%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E3%82%B8%E3%83%AC%E3%83%B3%E3%83%9E&qid=1622294994&s=books&sr=1-1',
-        },
-        {
-          title: '世界一シンプルで科学的に証明された究極の食事',
-          url: 'https://www.amazon.co.jp/%E4%B8%96%E7%95%8C%E4%B8%80%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%A7%E7%A7%91%E5%AD%A6%E7%9A%84%E3%81%AB%E8%A8%BC%E6%98%8E%E3%81%95%E3%82%8C%E3%81%9F%E7%A9%B6%E6%A5%B5%E3%81%AE%E9%A3%9F%E4%BA%8B-%E6%B4%A5%E5%B7%9D-%E5%8F%8B%E4%BB%8B/dp/4492046240/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E4%B8%96%E7%95%8C%E4%B8%80%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%A7%E7%A7%91%E5%AD%A6%E7%9A%84%E3%81%AB%E8%A8%BC%E6%98%8E%E3%81%95%E3%82%8C%E3%81%9F%E7%A9%B6%E6%A5%B5%E3%81%AE%E9%A3%9F%E4%BA%8B&qid=1622295015&s=books&sr=1-1',
-        },
-        {
-          title: 'LIFE SHIFT',
-          url: 'https://www.amazon.co.jp/LIFE-SHIFT-%E3%83%A9%E3%82%A4%E3%83%95%E3%83%BB%E3%82%B7%E3%83%95%E3%83%88-%E3%83%AA%E3%83%B3%E3%83%80-%E3%82%B0%E3%83%A9%E3%83%83%E3%83%88%E3%83%B3/dp/4492533877/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LIFE+SHIFT&qid=1622295036&s=books&sr=1-1',
-        },
-        {
-          title: '「思いつかない」「まとまらない」「伝わらない」がなくなる本',
-          url: 'https://www.amazon.co.jp/%E5%8D%9A%E5%A0%B1%E5%A0%82%E3%82%B9%E3%83%94%E3%83%BC%E3%83%81%E3%83%A9%E3%82%A4%E3%82%BF%E3%83%BC%E3%81%8C%E6%95%99%E3%81%88%E3%82%8B-5%E6%97%A5%E9%96%93%E3%81%A7%E8%A8%80%E8%91%89%E3%81%8C%E3%80%8C%E6%80%9D%E3%81%84%E3%81%A4%E3%81%8B%E3%81%AA%E3%81%84%E3%80%8D%E3%80%8C%E3%81%BE%E3%81%A8%E3%81%BE%E3%82%89%E3%81%AA%E3%81%84%E3%80%8D%E3%80%8C%E4%BC%9D%E3%82%8F%E3%82%89%E3%81%AA%E3%81%84%E3%80%8D%E3%81%8C%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B%E6%9C%AC-%E3%81%B2%E3%81%8D%E3%81%9F-%E3%82%88%E3%81%97%E3%81%82%E3%81%8D/dp/4804718516/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E3%80%8C%E6%80%9D%E3%81%84%E3%81%A4%E3%81%8B%E3%81%AA%E3%81%84%E3%80%8D%E3%80%8C%E3%81%BE%E3%81%A8%E3%81%BE%E3%82%89%E3%81%AA%E3%81%84%E3%80%8D%E3%80%8C%E4%BC%9D%E3%82%8F%E3%82%89%E3%81%AA%E3%81%84%E3%80%8D%E3%81%8C%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B%E6%9C%AC&qid=1622295057&s=books&sr=1-1',
-        },
-        {
-          title: 'LIMITLESS',
-          url: 'https://www.amazon.co.jp/LIMITLESS-%E8%B6%85%E5%8A%A0%E9%80%9F%E5%AD%A6%E7%BF%92-%E4%BA%BA%E7%94%9F%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B%E3%80%8C%E5%AD%A6%E3%81%B3%E6%96%B9%E3%80%8D%E3%81%AE%E6%8E%88%E6%A5%AD-%E3%82%B8%E3%83%A0%E3%83%BB%E3%82%AF%E3%82%A6%E3%82%A3%E3%83%83%E3%82%AF/dp/4492800905/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=LIMITLESS&qid=1622295080&s=books&sr=1-1',
-        },
-        {
-          title: '起業の天才',
-          url: 'https://www.amazon.co.jp/%E8%B5%B7%E6%A5%AD%E3%81%AE%E5%A4%A9%E6%89%8D-%E6%B1%9F%E5%89%AF%E6%B5%A9%E6%AD%A3-8%E5%85%86%E5%86%86%E4%BC%81%E6%A5%AD%E3%83%AA%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%88%E3%82%92%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%9F%E7%94%B7-%E5%A4%A7%E8%A5%BF-%E5%BA%B7%E4%B9%8B/dp/4492062165/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E8%B5%B7%E6%A5%AD%E3%81%AE%E5%A4%A9%E6%89%8D&qid=1622295102&s=books&sr=1-1',
-        },
-        {
-          title: '眠れなくなるほど面白い　社会心理学',
-          url: 'https://www.amazon.co.jp/%E7%9C%A0%E3%82%8C%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B%E3%81%BB%E3%81%A9%E9%9D%A2%E7%99%BD%E3%81%84-%E5%9B%B3%E8%A7%A3-%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6-%E4%BA%80%E7%94%B0-%E9%81%94%E4%B9%9F/dp/4537217146/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1622295122&sr=1-1',
-        },
-        {
-          title: '2040年の未来予測',
-          url: 'https://www.amazon.co.jp/2040%E5%B9%B4%E3%81%AE%E6%9C%AA%E6%9D%A5%E4%BA%88%E6%B8%AC-%E6%88%90%E6%AF%9B-%E7%9C%9E/dp/4822288900/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=2040%E5%B9%B4%E3%81%AE%E6%9C%AA%E6%9D%A5%E4%BA%88%E6%B8%AC&qid=1622295145&s=books&sr=1-1',
-        },
-        {
           title: 'お探し物は図書館まで',
           url: 'https://www.amazon.co.jp/%E3%81%8A%E6%8E%A2%E3%81%97%E7%89%A9%E3%81%AF%E5%9B%B3%E6%9B%B8%E5%AE%A4%E3%81%BE%E3%81%A7-%E9%9D%92%E5%B1%B1-%E7%BE%8E%E6%99%BA%E5%AD%90/dp/4591167984/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E3%81%8A%E6%8E%A2%E3%81%97%E7%89%A9%E3%81%AF%E5%9B%B3%E6%9B%B8%E9%A4%A8%E3%81%BE%E3%81%A7&qid=1622295165&s=books&sr=1-1',
         },
         {
-          title: '無名の男がたった7年で270億円手に入れた物語',
-          url: 'https://www.amazon.co.jp/%E7%84%A1%E5%90%8D%E3%81%AE%E7%94%B7%E3%81%8C%E3%81%9F%E3%81%A3%E3%81%9F7%E5%B9%B4%E3%81%A7-270%E5%84%84%E5%86%86%E6%89%8B%E3%81%AB%E5%85%A5%E3%82%8C%E3%81%9F%E7%89%A9%E8%AA%9E-%E7%AB%B9%E4%B9%8B%E5%86%85-%E6%95%99%E5%8D%9A/dp/4594088090/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E7%84%A1%E5%90%8D%E3%81%AE%E7%94%B7%E3%81%8C%E3%81%9F%E3%81%A3%E3%81%9F7%E5%B9%B4%E3%81%A7+270%E5%84%84%E5%86%86%E6%89%8B%E3%81%AB%E5%85%A5%E3%82%8C%E3%81%9F%E7%89%A9%E8%AA%9E&qid=1622295213&s=books&sr=1-1',
+          title: '逆ソクラテス',
+          url: 'https://www.amazon.co.jp/%E9%80%86%E3%82%BD%E3%82%AF%E3%83%A9%E3%83%86%E3%82%B9-%E4%BC%8A%E5%9D%82-%E5%B9%B8%E5%A4%AA%E9%83%8E/dp/4087717046/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E9%80%86%E3%82%BD%E3%82%AF%E3%83%A9%E3%83%86%E3%82%B9&qid=1628219930&sr=8-1',
+        },
+        {
+          title: 'デジタルとAIの未来を語る',
+          url: 'https://www.amazon.co.jp/%E3%82%AA%E3%83%BC%E3%83%89%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%BF%E3%83%B3-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%81%A8AI%E3%81%AE%E6%9C%AA%E6%9D%A5%E3%82%92%E8%AA%9E%E3%82%8B/dp/4833423995/ref=sr_1_16?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%81%A8AI%E3%81%AE&qid=1628219951&sr=8-16',
+        },
+        {
+          title: '赤ずきん、旅の途中で死体と出会う',
+          url: 'https://www.amazon.co.jp/%E8%B5%A4%E3%81%9A%E3%81%8D%E3%82%93%E3%80%81%E6%97%85%E3%81%AE%E9%80%94%E4%B8%AD%E3%81%A7%E6%AD%BB%E4%BD%93%E3%81%A8%E5%87%BA%E4%BC%9A%E3%81%86%E3%80%82-%E9%9D%92%E6%9F%B3-%E7%A2%A7%E4%BA%BA/dp/4575242896/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E8%B5%A4%E3%81%9A%E3%81%8D%E3%82%93%E3%80%81%E6%97%85%E3%81%AE%E9%80%94%E4%B8%AD%E3%81%A7%E6%AD%BB%E4%BD%93%E3%81%A8%E5%87%BA%E4%BC%9A%E3%81%86&qid=1628219978&sr=8-1',
+        },
+        {
+          title: 'ユダヤの商法',
+          url: 'https://www.amazon.co.jp/%E3%83%A6%E3%83%80%E3%83%A4%E3%81%AE%E5%95%86%E6%B3%95-%E6%96%B0%E8%A3%85%E7%89%88-%E8%97%A4%E7%94%B0-%E7%94%B0/dp/4584139008/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E3%83%A6%E3%83%80%E3%83%A4%E3%81%AE%E5%95%86%E6%B3%95&qid=1628219993&sr=8-1',
+        },
+        {
+          title: '仕事は楽しいかね？',
+          url: 'https://www.amazon.co.jp/%E4%BB%95%E4%BA%8B%E3%81%AF%E6%A5%BD%E3%81%97%E3%81%84%E3%81%8B%E3%81%AD-%E3%83%87%E3%82%A4%E3%83%AB-%E3%83%89%E3%83%BC%E3%83%86%E3%83%B3/dp/4877710787/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E4%BB%95%E4%BA%8B%E3%81%AF%E6%A5%BD%E3%81%97%E3%81%84%E3%81%8B%E3%81%AD%EF%BC%9F&qid=1628220007&sr=8-1',
         },
       ],
     }
