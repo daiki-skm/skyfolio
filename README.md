@@ -1,5 +1,6 @@
 # skyfolio
-## This is my portfolio!
+
+This is my portfolio!
 
 ## /pages
 - /: my activities
