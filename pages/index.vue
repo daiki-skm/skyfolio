@@ -1,40 +1,15 @@
 <template>
   <div class="container">
-    <ActivitiesLinkCard
-      :link="'/activities/notion/'"
-      :class-name="'notion'"
-      :src="'/top/notion-top.png'"
-    />
-    <ActivitiesLinkCard
-      :link="'/activities/bot/'"
-      :class-name="'bot'"
-      :src="'/top/music-top.png'"
-    />
-    <ActivitiesLinkCard
-      :link="'/activities/game/'"
-      :class-name="'game'"
-      :src="'/top/game-top.png'"
-    />
-    <ActivitiesLinkCard
-      :link="'/activities/cli/'"
-      :class-name="'cli'"
-      :src="'/top/cli.png'"
-    />
-    <ActivitiesLinkCard
-      :link="'/activities/dalian/'"
-      :class-name="'dalian'"
-      :src="'/top/dalian-top.png'"
-    />
-    <ActivitiesLinkCard
-      :link="'/activities/win/'"
-      :class-name="'win'"
-      :src="'/top/win-top.png'"
-    />
-    <ActivitiesLinkCard
-      :link="'/activities/hackTrek/'"
-      :class-name="'hack-trek'"
-      :src="'/top/hack-trek-top.png'"
-    />
+    <template
+      v-for="(cardDataObject, index) in cardDataList"
+    >
+      <ActivitiesLinkCard
+        :key="index"
+        :link="cardDataObject.link"
+        :class-name="cardDataObject.className"
+        :src="cardDataObject.src"
+      />
+    </template>
     <IconArrowUp />
   </div>
 </template>
@@ -42,13 +17,57 @@
 <script lang="ts">
 import Vue from 'vue'
 
-export type DataType = {
+type cardDataObject = {
+  link: string
+  className: string
+  src: string
+}
+
+type DataType = {
+  cardDataList: cardDataObject[]
 }
 
 export default Vue.extend({
   layout: 'common',
   data (): DataType {
     return {
+      cardDataList: [
+        {
+          link: '/activities/notion/',
+          className: 'notion',
+          src: '/top/notion-top.png'
+        },
+        {
+          link: '/activities/bot/',
+          className: 'bot',
+          src: '/top/music-top.png'
+        },
+        {
+          link: '/activities/game/',
+          className: 'game',
+          src: '/top/game-top.png'
+        },
+        {
+          link: '/activities/cli/',
+          className: 'cli',
+          src: '/top/cli.png'
+        },
+        {
+          link: '/activities/dalian/',
+          className: 'dalian',
+          src: '/top/dalian-top.png'
+        },
+        {
+          link: '/activities/win/',
+          className: 'win',
+          src: '/top/win-top.png'
+        },
+        {
+          link: '/activities/hackTrek/',
+          className: 'hack-trek',
+          src: '/top/hack-trek-top.png'
+        },
+      ]
     }
   },
 })

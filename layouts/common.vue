@@ -5,32 +5,21 @@
         <span class="main-title">skyfolio</span>
       </nuxt-link>
       <div class="icon-list">
-        <SocialMediaLinkIcon
-          :link="'https://twitter.com/dk_m28'"
-          :icon="'twitter'"
-          style="padding-right: 5px;"
-        />
-        <SocialMediaLinkIcon
-          :link="'https://www.instagram.com/daiki_skm_/'"
-          :icon="'instagram'"
-          style="padding-right: 5px;"
-        />
-        <SocialMediaLinkIcon
-          :link="'https://github.com/daiki328'"
-          :icon="'github'"
-          style="padding-right: 5px;"
-        />
-        <SocialMediaLinkIcon
-          :link="'https://www.facebook.com/profile.php?id=100025096625886'"
-          :icon="'facebook-f'"
-        />
+        <template
+          v-for="(iconDataObject, index) in iconDataList"
+          class="issuetags"
+        >
+          <SocialMediaLinkIcon
+            :key="index"
+            :link="iconDataObject.link"
+            :icon="iconDataObject.icon"
+            style="padding-right: 10px;"
+          />
+        </template>
       </div>
       <div class="link-list">
         <nuxt-link to="/about/">
           <span class="link" style="padding-right: 40px;">About</span>
-        </nuxt-link>
-        <nuxt-link to="/blog/">
-          <span class="link" style="padding-right: 40px;">Blog</span>
         </nuxt-link>
         <nuxt-link to="/bookshelf/">
           <span class="link">Bookshelf</span>
@@ -44,12 +33,36 @@
 <script lang="ts">
 import Vue from 'vue'
 
+type iconDataObject = {
+  link: string
+  icon: string
+}
+
 type DataType = {
+  iconDataList: iconDataObject[]
 }
 
 export default Vue.extend({
   data (): DataType {
     return {
+      iconDataList: [
+        {
+          link: 'https://twitter.com/daiki_skm',
+          icon: 'twitter'
+        },
+        {
+          link: 'https://www.instagram.com/daiki_skm_/',
+          icon: 'instagram'
+        },
+        {
+          link: 'https://github.com/daiki328',
+          icon: 'github'
+        },        
+        {
+          link: 'https://www.facebook.com/profile.php?id=100025096625886',
+          icon: 'facebook-f'
+        }
+      ]
     }
   },
 })
